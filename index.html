@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="images/png" size="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <title>order-summary-1</title>
+  </head>
+  <body class="bg-lightGray">
+    <!-- GLOBAL CONTAINER -->
+     <div class="flex w-full">
+      <!-- BACKGROUND IMAGE -->
+       <div class="relative flex w-full">
+        <img src="images/pattern-background-desktop.svg" alt="" class="hidden md:block w-full">
+        <img src="images/pattern-background-mobile.svg" alt="" class="md:hidden w-full">
+       </div>
+       <!-- HERO IMAGE AND MAIN CONTAINER -->
+        <div class="absolute top-0 -mt-48 flex flex-col bg-white left-[50%] -translate-x-1/2 translate-y-1/2 rounded-2xl w-4/5 md:w-auto">
+          <!-- HERO IMAGE -->
+           <div class="flex justify-center">
+            <img src="images/illustration-hero.svg" alt="" class="rounded-t-2xl">
+           </div>
+           <!-- HEADER -->
+            <div class="flex justify-center flex-col">
+              <h1 class="mt-8 text-xl text-darkBlue font-black font-redHatDisplay capitalize text-center md:text-2xl md:mt-11">Order summary</h1>
+              <!-- CONTENT -->
+               <p class="text-sm text-grayishBlue font-medium font-redHatDisplay text-center  py-4 md:hidden">You can now listen to millions of songs,<br> audiobooks, and podcasts on any <br>device anywhere you like!</p>
+               <p class="hidden md:block text-sm text-grayishBlue font-medium font-redHatDisplay text-center  py-4">You can now listen to millions of songs,<br> audiobooks, and podcasts on any device <br>anywhere you like!</p>
+            </div>
+            <div class="flex mx-6 py-2 bg-lightSlate p-4 rounded-lg justify-between items-center md:py-4 md:mx-12">
+              <!-- ICON -->
+               <img src="images/icon-music.svg" alt="">
+               <!-- HEADER -->
+                <h2 class="text-sm text-darkBlue font-black font-redHatDisplay tracking-tighter -ml-8">Annaul Plan <span class="block font-medium text-grayishBlue tracking-wide">$59.99/year</span>
+                </h2>
+                <!-- LINK -->
+                 <a href="#" class="text-sm text-purple font-redHatDisplay font-bold border-b-2 border-purple hover:text-lightPurple hover:border-none">Change</a>
+            </div>
+            <!-- BUTTON -->
+             <div class="flex justify-center mt-6 py-3 mx-6 rounded-xl bg-purple shadow-2xl shadow-lightPurple text-[15px] text-white font-black font-redHatDisplay hover:bg-lightPurple hover:cursor-pointer md:mx-12">Proceed to Payment</div>
+             <!-- ORDER LINK -->
+              <a href="#" class="text-sm text-grayishBlue text-center mt-8 font-black font-redHatDisplay capitalize mb-8 hover:text-darkBlue md:mb-12">Cancel order</a>
+        </div>
+     </div>
+  </body>
+</html>
