@@ -586,6 +586,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: auto;
 }
 
+.h-\[57rem\] {
+  height: 57rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -600,6 +604,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .w-auto {
   width: auto;
+}
+
+.w-\[90rem\] {
+  width: 90rem;
 }
 
 .-translate-x-1\/2 {
@@ -780,6 +788,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 15px;
 }
 
+.text-\[1rem\] {
+  font-size: 1rem;
+}
+
 .font-black {
   font-weight: 900;
 }
@@ -926,6 +938,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     width: 80%;
   }
 
+  .md\:p-6 {
+    padding: 1.5rem;
+  }
+
   .md\:py-4 {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -938,5 +954,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:text-\[1rem\] {
     font-size: 1rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
